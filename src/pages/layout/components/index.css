@@ -1,0 +1,91 @@
+.logo {
+  height: 32px;
+  background: #333;
+  border-radius: 6px;
+  margin: 0 16px 16px 16px;
+  line-height: 32px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  word-break: keep-all;
+}
+
+.whiteLogo {
+  background: #666;
+  color: #fff;
+  padding: 16px;
+  line-height: 32px;
+  text-align: center;
+  overflow: hidden;
+  word-break: keep-all;
+}
+
+.whiteSider{
+  background-color: white;
+  padding:0;
+}
+
+.blackSider{
+  padding-top:16px;
+}
+
+.header{
+  background:#fff;
+  padding:0;
+  width: 100%;
+  box-shadow: 1px 1px 3px 1px #ddd;
+}
+
+.whiteHeader{
+  background:#404040;
+  padding:0;
+  width: 100%;
+  color:#fff;
+  box-shadow: 1px 1px 3px 1px #ddd;
+}
+
+.content{
+  margin:4px 16px 0;
+  overflow:initial;
+}
+
+.topMenu{
+  line-height: 63px;
+  float:right;
+  margin-right: 20px;
+}
+
+.bread{
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+.trigger{
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: color .3s;
+  float: left;
+}
+
+.trigger:hover {
+  color: #108ee9;
+}
+
+.navTextShow{
+
+}
+
+.navTextHide {
+  display: none;
+}
+
+.changeDiv{
+  position: absolute;;
+  padding: 15px;
+  bottom: 0;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(0,0,0,0.3);
+}

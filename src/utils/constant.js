@@ -1,0 +1,32 @@
+/**
+ * Created by YIJIEDAO2 on 2017/5/31.
+ */
+export const sideMenu = [
+  {
+    title:'导航1',
+    icon:'setting',
+    child:[
+      {
+        title:'导航1的子导航1',//名称
+        link:'#setting',//路由地址
+        index:0//selectKey
+      }
+    ]
+  },
+  {
+    title:'导航2',
+    icon:'home',
+    child:[
+      {
+        title:'导航2的子导航1',
+        link:'#nav1',
+        index:0
+      },
+      {
+        title:'导航2的子导航2',
+        link:'#nav2',
+        index:1
+      }
+    ]
+  }
+];
