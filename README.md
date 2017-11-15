@@ -1,4 +1,4 @@
-# iView-project
+# react-router-antd-mobx
 
 This project is build for react + react-redux + redux + mobx + antd, just install and run.
 
